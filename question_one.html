@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .card{
+    background-color: rgb(236, 25, 197);
+    border: 1px solid black;
+    padding:  20px;
+    text-align: center;
+    border-radius: 5px;
+        }
+    .layout{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,  1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="card">First card</div>
+
+        <div class="card">Second card</div>
+
+        <div class="card">Third card</div>
+    </div>
+</body>
+</html>
